@@ -7,7 +7,7 @@ sudo apt update -y
 sudo apt install -y curl
 
 # Adiciona o repositório NodeSource e instala o Node.js
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 
 # Verifica a instalação
